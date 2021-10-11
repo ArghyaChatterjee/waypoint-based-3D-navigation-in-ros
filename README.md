@@ -5,6 +5,9 @@ This repository contains code for 3D waypoint based navigation in ROS.
 
 The repository is meant for leveraging system development and robot deployment for ground-based autonomous navigation and exploration. Containing a variety of simulation environments, autonomous navigation modules such as collision avoidance, terrain traversability analysis, waypoint following, etc, and a set of visualization tools, users can develop autonomous navigation systems and later on port those systems onto real robots for deployment.
 
+## Compatibility
+This repository will work with Ubuntu 18.04 and ROS Melodic.
+
 ## Quick Start
 The repository has been tested in Ubuntu 18.04 with ROS Melodic and Ubuntu 20.04 with ROS Noetic. Install dependencies with command lines below.
 ```
@@ -36,3 +39,5 @@ Alternatively, users can run a ROS node to send a series of waypoints. In anothe
 ```
 roslaunch waypoint_example waypoint_example_garage.launch
 ```
+## Source 
+- [Autonomous Exploration Development Environment by CMU](https://github.com/HongbiaoZ/autonomous_exploration_development_environment)
