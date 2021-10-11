@@ -18,10 +18,9 @@ Clone the open-source repository.
 ```
 git clone https://github.com/HongbiaoZ/autonomous_exploration_development_environment.git
 ```
-In a terminal, go to the folder and checkout the branch that matches the computer setup. Replace 'distribution' with 'melodic' or 'noetic'. Then, compile.
+In a terminal, go to the folder. Then, compile.
 ```
-cd autonomous_exploration_development_environment
-git checkout distribution
+cd waypoint-based-3D-navigation-in-ros
 catkin_make
 ```
 Run a script to download simulation environments (~500MB). This may take several minutes. If the script does not start the download, users can download the simulation environments and unzip the files to 'src/vehicle_simulator/meshes'.
